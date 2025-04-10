@@ -1,0 +1,105 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Checkpoint del modello (file di grandi dimensioni)
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+checkpoints/
+weights/
+models/
+
+# Notebook Jupyter
+.ipynb_checkpoints
+
+# Ambienti virtuali
+venv/
+ENV/
+sam_venv/
+.venv/
+*venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Aider files (contengono potenziali segreti)
+.aider*
+
+# File di esperimenti e output
+experiments/
+output/
+results/
+logs/
+*.log
+
+# File di dati e dataset
+*.csv
+*.json
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# File temporanei
+tmp/
+temp/
+*.tmp
+
+# File di configurazione locali
+config.local.yaml
+*.local.ini
+*.local.conf
+
+# File di ambiente
+.env
+.env.*
+
+# File di cache
+__pycache__/
+.cache/
+*.cache
+
+# File specifici dell'utente
+user_data/
+
+# File di backup
+*~
+*.bak
+*.backup
+*.swp
+*.swo
+
+# File di sistema
+.DS_Store
+Thumbs.db
+.directory
